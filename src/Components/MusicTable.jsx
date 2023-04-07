@@ -6,6 +6,7 @@ const MusicTable = (props) => {
             <table>
                 <thead>
                     <tr>
+                        <th>Id</th>
                         <th>Title</th>
                         <th>Artist</th>
                         <th>Album</th>
@@ -18,6 +19,7 @@ const MusicTable = (props) => {
                         return(
                             <tr>
                                 <td>{index + 1}</td>
+                                <td>{song.id}</td>
                                 <td>{song.title}</td>
                                 <td>{song.artist}</td>
                                 <td>{song.album}</td>
