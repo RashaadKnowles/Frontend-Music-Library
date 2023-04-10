@@ -19,7 +19,6 @@ const MusicTable = (props) => {
                         return(
                             <tr>
                                 <td>{index + 1}</td>
-                                <td>{song.id}</td>
                                 <td>{song.title}</td>
                                 <td>{song.artist}</td>
                                 <td>{song.album}</td>
